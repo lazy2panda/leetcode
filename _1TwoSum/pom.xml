@@ -5,8 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.lazy2panda.leetcode.1TwoSum</groupId>
     <artifactId>1TwoSum</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-<dependencies>
+    <modules>
+        <module>../IORedirct</module>
+        <module>../saima_yodelTest</module>
+    </modules>
+    <dependencies>
     <!-- Mandatory dependencies for using Spock -->
     <dependency>
         <groupId>org.spockframework</groupId>
